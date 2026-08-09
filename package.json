@@ -1,0 +1,10 @@
+{
+  "name": "unrealops.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The UnrealOps content portal for Unreal Engine, AI, cloud, and real-time 3D.",
+  "scripts": {
+    "dev": "python3 -m http.server 4173",
+    "build": "node scripts/build.mjs"
+  }
+}

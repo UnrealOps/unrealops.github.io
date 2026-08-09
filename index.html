@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="UnrealOps is an open field guide to Unreal Engine infrastructure, AI-assisted development, cloud computing, and real-time 3D workflows."
+    />
+    <meta name="theme-color" content="#020711" />
+    <meta name="color-scheme" content="dark" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://unrealops.github.io/" />
+    <meta property="og:title" content="UnrealOps — Build Beyond the Editor" />
+    <meta
+      property="og:description"
+      content="Tutorials, open-source systems, and field notes for Unreal Engine, AI, cloud computing, and real-time 3D."
+    />
+    <meta property="og:image" content="https://unrealops.github.io/assets/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="UnrealOps — Build Beyond the Editor" />
+    <meta
+      name="twitter:description"
+      content="Tutorials, open-source systems, and field notes for Unreal Engine, AI, cloud computing, and real-time 3D."
+    />
+    <meta name="twitter:image" content="https://unrealops.github.io/assets/og.jpg" />
+    <link rel="canonical" href="https://unrealops.github.io/" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" href="assets/hero-horizon.jpg" as="image" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>UnrealOps — Build Beyond the Editor</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="page-progress" aria-hidden="true"><span></span></div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="UnrealOps home">
+        <img
+          class="brand-logo"
+          src="assets/unrealops-logo.png"
+          alt="UnrealOps"
+          width="1620"
+          height="356"
+        />
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#explore">Explore</a>
+        <a href="#tutorials">Tutorials</a>
+        <a href="#open-source">Open source</a>
+      </nav>
+
+      <a
+        class="header-cta"
+        href="https://unrealops.substack.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        SUBSCRIBE ON SUBSTACK <span aria-hidden="true">↗</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="sr-only">Open navigation</span>
+        <i></i><i></i>
+      </button>
+
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+        <a href="#explore">Explore</a>
+        <a href="#tutorials">Tutorials</a>
+        <a href="#open-source">Open source</a>
+        <a href="https://unrealops.substack.com/" target="_blank" rel="noreferrer">Substack ↗</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-image" aria-hidden="true"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+        <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+
+        <div class="hero-content shell">
+          <h1 id="hero-title">
+            Build beyond<br />
+            <span>the editor.</span>
+          </h1>
+          <p class="hero-copy">
+            Practical systems for the next generation of interactive worlds. UnrealOps connects
+            real-time 3D with modern infrastructure, AI-native workflows, and open-source tools.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#tutorials">
+              Explore tutorials <span aria-hidden="true">↓</span>
+            </a>
+            <a
+              class="button button-ghost"
+              href="https://github.com/UnrealOps"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View on GitHub <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-rail shell" aria-label="UnrealOps focus areas">
+          <div><small>01</small><span>Artificial intelligence</span></div>
+          <div><small>02</small><span>Cloud Computing</span></div>
+          <div><small>03</small><span>Real-time 3D</span></div>
+        </div>
+      </section>
+
+      <section class="intro section shell reveal" aria-labelledby="intro-title">
+        <div class="section-index">[ 001 / MISSION ]</div>
+        <div class="intro-copy">
+          <h2 id="intro-title">Infrastructure for <span>virtual worlds.</span></h2>
+          <p>
+            The future of Unreal Engine development reaches far beyond rendering. It lives where
+            artists, engineers, agents, distributed systems, and massive datasets meet. UnrealOps
+            turns that frontier into practical guidance through field-tested tutorials,
+            open-source infrastructure, and production-ready workflows.
+          </p>
+        </div>
+      </section>
+
+      <section class="section shell" id="explore" aria-labelledby="explore-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="kicker">Content network</p>
+            <h2 id="explore-title">Choose your entry point.</h2>
+          </div>
+          <p>One portal. Every UnrealOps transmission, tool, and experiment.</p>
+        </div>
+
+        <div class="portal-grid">
+          <article class="portal-card float-a reveal">
+            <div class="portal-topline">
+              <span>Node 01 / Learn</span><b>2 live channels</b>
+            </div>
+
+            <div class="island-stage">
+              <div class="island-orbit" aria-hidden="true"></div>
+              <img
+                class="island-asset"
+                src="assets/island-tutorials.png"
+                alt="A floating futuristic city representing UnrealOps tutorials"
+                width="900"
+                height="600"
+                loading="lazy"
+              />
+              <div class="island-shadow" aria-hidden="true"></div>
+            </div>
+
+            <div class="portal-copy">
+              <p>Tutorials</p>
+              <h3>Learn the systems</h3>
+              <span>Deep technical walkthroughs on Substack and knowledge published for the Epic Developer Community.</span>
+              <div class="portal-actions">
+                <a href="https://unrealops.substack.com/" target="_blank" rel="noreferrer">Substack ↗</a>
+                <a
+                  href="https://dev.epicgames.com/community/profile/l5XZw/UnrealOps#tutorials"
+                  target="_blank"
+                  rel="noreferrer"
+                >Epic Community ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="portal-card float-b reveal">
+            <div class="portal-topline"><span>Node 02 / Build</span><b>Open source</b></div>
+
+            <div class="island-stage">
+              <div class="island-orbit" aria-hidden="true"></div>
+              <img
+                class="island-asset"
+                src="assets/island-open-source.png"
+                alt="A floating futuristic city representing open-source projects"
+                width="900"
+                height="600"
+                loading="lazy"
+              />
+              <div class="island-shadow" aria-hidden="true"></div>
+            </div>
+
+            <div class="portal-copy">
+              <p>GitHub projects</p>
+              <h3>Build in the open</h3>
+              <span>Reusable foundations for the infrastructure and workflows behind real-time production.</span>
+              <div class="portal-actions">
+                <a href="https://github.com/UnrealOps" target="_blank" rel="noreferrer">Explore GitHub ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="portal-card portal-card-muted float-c reveal">
+            <div class="portal-topline"><span>Node 03 / Equip</span><b>Incoming</b></div>
+
+            <div class="island-stage">
+              <div class="island-orbit" aria-hidden="true"></div>
+              <img
+                class="island-asset"
+                src="assets/island-fab.png"
+                alt="A floating futuristic city representing UnrealOps tools and plugins"
+                width="900"
+                height="600"
+                loading="lazy"
+              />
+              <div class="island-shadow" aria-hidden="true"></div>
+            </div>
+
+            <div class="portal-copy">
+              <p>Fab marketplace</p>
+              <h3>Power up production</h3>
+              <span>Workflow accelerators for creators and technical teams are currently in development.</span>
+              <div class="portal-actions portal-actions-muted"><span>Docking soon ···</span></div>
+            </div>
+          </article>
+
+          <article class="portal-card portal-card-muted float-d reveal">
+            <div class="portal-topline"><span>Node 04 / Watch</span><b>Incoming</b></div>
+
+            <div class="island-stage">
+              <div class="island-orbit" aria-hidden="true"></div>
+              <img
+                class="island-asset"
+                src="assets/island-video.png"
+                alt="A floating futuristic city representing UnrealOps video content"
+                width="900"
+                height="600"
+                loading="lazy"
+              />
+              <div class="island-shadow" aria-hidden="true"></div>
+            </div>
+
+            <div class="portal-copy">
+              <p>YouTube channel</p>
+              <h3>Watch the build</h3>
+              <span>Technical walkthroughs, platform deep dives, and working sessions will join the network next.</span>
+              <div class="portal-actions portal-actions-muted"><span>Signal pending ···</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section tutorials" id="tutorials" aria-labelledby="tutorials-title">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <div>
+              <p class="kicker">Latest transmissions</p>
+              <h2 id="tutorials-title">Build what’s next.</h2>
+            </div>
+            <a
+              class="text-link"
+              href="https://unrealops.substack.com/"
+              target="_blank"
+              rel="noreferrer"
+            >All tutorials <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="tutorial-list">
+            <a
+              class="tutorial-row reveal"
+              href="https://unrealops.substack.com/p/deploying-an-eks-cluster-in-aws-for"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div class="tutorial-number">01</div>
+              <div class="tutorial-meta"><span>Cloud infrastructure</span><time datetime="2026-07-29">Jul 29, 2026</time></div>
+              <div class="tutorial-title">
+                <h3>Deploying an EKS Cluster in AWS for Unreal Engine Development</h3>
+                <p>A foundational, production-minded infrastructure layer built with Terraform or OpenTofu.</p>
+              </div>
+              <div class="tutorial-arrow" aria-hidden="true">↗</div>
+            </a>
+
+            <a
+              class="tutorial-row reveal"
+              href="https://unrealops.substack.com/p/using-the-unreal-engine-5-mcp-server-70e"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div class="tutorial-number">02</div>
+              <div class="tutorial-meta"><span>AI workflows</span><time datetime="2026-07-12">Jul 12, 2026</time></div>
+              <div class="tutorial-title">
+                <h3>Using the UE5 MCP Server with Kilo Code, OpenCode, and Ollama Cloud</h3>
+                <p>Connect open-source AI coding agents directly to Unreal Engine 5.8 editor context.</p>
+              </div>
+              <div class="tutorial-arrow" aria-hidden="true">↗</div>
+            </a>
+
+            <a
+              class="tutorial-row reveal"
+              href="https://unrealops.substack.com/p/using-the-unreal-engine-5-mcp-server"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div class="tutorial-number">03</div>
+              <div class="tutorial-meta"><span>AI workflows</span><time datetime="2026-07-06">Jul 06, 2026</time></div>
+              <div class="tutorial-title">
+                <h3>Using the UE5 MCP Server with Claude Code, Codex CLI, and Cursor</h3>
+                <p>Bridge Unreal editor context and a new generation of AI-native development tools.</p>
+              </div>
+              <div class="tutorial-arrow" aria-hidden="true">↗</div>
+            </a>
+
+            <a
+              class="tutorial-row reveal"
+              href="https://unrealops.substack.com/p/building-unreal-engine-5-from-source-fa6"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div class="tutorial-number">04</div>
+              <div class="tutorial-meta"><span>Developer experience</span><time datetime="2026-06-28">Jun 28, 2026</time></div>
+              <div class="tutorial-title">
+                <h3>Building Unreal Engine 5 from Source on Windows with Cursor and UShell</h3>
+                <p>A repeatable source-build workflow for modern Windows-based Unreal development.</p>
+              </div>
+              <div class="tutorial-arrow" aria-hidden="true">↗</div>
+            </a>
+
+            <a
+              class="tutorial-row reveal"
+              href="https://unrealops.substack.com/p/building-unreal-engine-5-from-source"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div class="tutorial-number">05</div>
+              <div class="tutorial-meta"><span>Developer experience</span><time datetime="2026-06-21">Jun 21, 2026</time></div>
+              <div class="tutorial-title">
+                <h3>Building Unreal Engine 5 from Source on macOS with Cursor and UShell</h3>
+                <p>Build, inspect, and launch UE5 from source with an AI-native macOS toolchain.</p>
+              </div>
+              <div class="tutorial-arrow" aria-hidden="true">↗</div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section open-source shell" id="open-source" aria-labelledby="open-source-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="kicker">Open source systems</p>
+            <h2 id="open-source-title">The platform layer.</h2>
+          </div>
+          <p>Infrastructure designed for game studios, shared in the open.</p>
+        </div>
+
+        <article class="project-feature reveal">
+          <div class="project-visual">
+            <img
+              src="assets/hero.jpg"
+              alt="A holographic Kubernetes mark surrounded by cloud and spatial-computing infrastructure"
+              width="1800"
+              height="1013"
+              loading="lazy"
+            />
+            <div class="image-hud" aria-hidden="true">
+              <span>SYS / LORE</span><span>BUILD_01</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <p class="project-label"><i></i> Public repository</p>
+            <h3>UnrealOps<br /><span>Infrastructure</span></h3>
+            <p>
+              A reusable AWS foundation for Unreal Engine development: private EKS, elastic Karpenter
+              capacity, secure remote access, and an opt-in Lore binary-asset service.
+            </p>
+            <ul class="project-tags" aria-label="Project technologies">
+              <li>Terraform</li>
+              <li>OpenTofu</li>
+              <li>AWS EKS</li>
+              <li>Kubernetes</li>
+              <li>Karpenter</li>
+              <li>Lore</li>
+            </ul>
+            <a
+              class="button button-primary"
+              href="https://github.com/UnrealOps/infrastructure"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Explore the repository <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <section class="signal-section" aria-labelledby="signal-title">
+        <div class="signal-bg" aria-hidden="true"></div>
+        <div class="signal-orbit" aria-hidden="true"><i></i></div>
+        <div class="signal-content shell reveal">
+          <p class="kicker">Join the network</p>
+          <h2 id="signal-title">Follow the next<br /><span>transmission.</span></h2>
+          <p>New tutorials, open-source releases, experiments, and field notes—sent when they’re ready.</p>
+          <div class="signal-actions">
+            <a
+              class="button button-primary"
+              href="https://unrealops.substack.com/subscribe"
+              target="_blank"
+              rel="noreferrer"
+            >Subscribe on Substack <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-main">
+        <a class="brand brand-footer" href="#top" aria-label="UnrealOps home">
+          <img
+            class="brand-logo"
+            src="assets/unrealops-logo.png"
+            alt="UnrealOps"
+            width="1620"
+            height="356"
+            loading="lazy"
+          />
+        </a>
+        <div class="footer-links">
+          <a href="https://unrealops.substack.com/" target="_blank" rel="noreferrer">Substack ↗</a>
+          <a href="https://github.com/UnrealOps" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a
+            href="https://dev.epicgames.com/community/profile/l5XZw/UnrealOps"
+            target="_blank"
+            rel="noreferrer"
+          >Epic ↗</a>
+        </div>
+      </div>
+      <div class="shell footer-bottom">
+        <span>© <span data-year>2026</span> UnrealOps</span>
+        <span>Artificial intelligence · Cloud computing · Real-time 3D</span>
+      </div>
+    </footer>
+  </body>
+</html>
