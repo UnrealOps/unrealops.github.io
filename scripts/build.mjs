@@ -10,7 +10,7 @@ const requiredFiles = [
   "script.js",
   "assets/hero.jpg",
   "assets/hero-horizon.jpg",
-  "assets/unrealops-logo.png",
+  "assets/unrealops-logo-flat.png",
   "assets/island-tutorials.png",
   "assets/island-open-source.png",
   "assets/island-fab.png",

@@ -162,8 +162,7 @@ button {
 .brand-logo {
   display: block;
   width: auto;
-  height: 33px;
-  filter: drop-shadow(0 0 9px rgba(24, 185, 255, 0.16));
+  height: 30px;
 }
 
 .desktop-nav {
@@ -1453,7 +1452,7 @@ a.portal-card-feature:hover {
 }
 
 .brand-footer .brand-logo {
-  height: 39px;
+  height: 35px;
 }
 
 .footer-links {
@@ -1653,7 +1652,7 @@ a.portal-card-feature:hover {
   }
 
   .brand-logo {
-    height: 29px;
+    height: 26px;
   }
 
   .hero {
